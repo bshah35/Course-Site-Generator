@@ -1,0 +1,31 @@
+
+{
+    "work":[
+        {
+            "semester":"Spring 2016",
+            "projects":[
+                {
+                    "name":"C4 Comics",
+                    "students":[
+                        {
+                            "":"Jane Doe"
+                        },
+                        {
+                            "":"cc bhghh"
+                        }
+                    ],
+                    "link":"https://c4-comics.appspot.com"
+                },
+                {
+                    "name":"Comx Central",
+                    "students":[
+                        {
+                            "":"sdds sddssd"
+                        }
+                    ],
+                    "link":"https://comxcentral.appspot.com"
+                }
+            ]
+        }
+    ]
+}

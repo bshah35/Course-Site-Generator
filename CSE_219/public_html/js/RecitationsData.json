@@ -1,0 +1,46 @@
+{
+     "recitations":[
+        {
+            "section":"<strong>R01</strong> (Richard Mckenna)",
+            "day_time":"Mondays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Wonyong Jeong",
+            "ta_2":"Jane Doe"
+        },
+        {
+            "section":"<strong>R02</strong> (Richard Mckenna)",
+            "day_time":"Wednesdays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Jerrel Sogoni",
+            "ta_2":"Abu Saeid"
+        },
+        {
+            "section":"<strong>R03</strong> (Richard Mckenna)",
+            "day_time":"Mondays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"James Hoffman",
+            "ta_2":"Bilal Shah"
+        },
+        {
+            "section":"<strong>R04</strong> (Ritwik Banerjee)",
+            "day_time":"Thursdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Milto Ndrenika",
+            "ta_2":"Hasib Rezoan"
+        },
+        {
+            "section":"<strong>R05</strong> (Ritwik Banerjee)",
+            "day_time":"Tuesdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2113",
+            "ta_1":"Michael Mathew",
+            "ta_2":"Ryan Tam"
+        },
+        {
+            "section":"<strong>R06</strong> (Ritwik Banerjee)",
+            "day_time":"Tuesdays, 4:00pm-4:53pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Ali Afzal",
+            "ta_2":"Dachi Vardidze"
+        }
+    ]
+}

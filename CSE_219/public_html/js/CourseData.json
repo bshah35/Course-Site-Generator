@@ -1,0 +1,49 @@
+
+{
+    "instructor_link": [
+        {
+            "instructor_name": "Richard MC",
+            "instructor_home": "www.rich~@cs.edu",
+            "export_dir": "C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\219"
+        }
+    ],
+    "banner": [
+        {
+            "subject": "CSE",
+            "semester": "Spring",
+            "course_number": "219",
+            "course_year": "2017",
+            "course_title": "Computer Science III"
+        }
+    ],
+    "site_page_dir": "C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\CSE_219",
+    "site_pages": [
+        {
+            "use": "true",
+            "navebar": "HWs",
+            "file": "hws.html",
+            "script": "HomeBuilder.js"
+        },
+        {
+            "use": "true",
+            "navebar": "Home",
+            "file": "index.html",
+            "script": "HWsBuilder.js"
+        },
+        {
+            "use": "true",
+            "navebar": "Schedule",
+            "file": "schedule.html",
+            "script": "ScheduleBuilder.js"
+        },
+        {
+            "use": "true",
+            "navebar": "Syllabus",
+            "file": "syllabus.html",
+            "script": "SyllabusBuilder.js"
+        }
+    ],
+    "image1": "file:C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\TAManager\\images\\SBUDarkRedShieldLogo.png",
+    "image2": "file:C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\TAManager\\images\\SBUDarkRedShieldLogo.png",
+    "image3": "file:C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\TAManager\\images\\SBUDarkRedShieldLogo.png"
+}

@@ -1,0 +1,290 @@
+
+{
+    "COURSE DATA":"************************************************************************************************************************************************************************/",
+    "instructor_link":[
+        {
+            "instructor_name":"Richard MC",
+            "instructor_home":"www.rich~@cs.edu",
+            "export_dir":"C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\219"
+        }
+    ],
+    "banner":[
+        {
+            "subject":"CSE",
+            "semester":"Spring",
+            "course_number":"219",
+            "course_year":"2017",
+            "course_title":"Computer Science III"
+        }
+    ],
+    "site_page_dir":"C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\CSE_219",
+    "site_pages":[
+        {
+            "use":"true",
+            "navebar":"HWs",
+            "file":"hws.html",
+            "script":"HomeBuilder.js"
+        },
+        {
+            "use":"true",
+            "navebar":"Home",
+            "file":"index.html",
+            "script":"HWsBuilder.js"
+        },
+        {
+            "use":"true",
+            "navebar":"Schedule",
+            "file":"schedule.html",
+            "script":"ScheduleBuilder.js"
+        },
+        {
+            "use":"true",
+            "navebar":"Syllabus",
+            "file":"syllabus.html",
+            "script":"SyllabusBuilder.js"
+        }
+    ],
+    "image1":"file:C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\TAManager\\images\\SBUDarkRedShieldLogo.png",
+    "image2":"file:C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\TAManager\\images\\SBUDarkRedShieldLogo.png",
+    "image3":"file:C:\\Users\\Bilal\\Documents\\Bilal\\SBU\\CSE 219\\Project\\TAManager\\images\\SBUDarkRedShieldLogo.png",
+    "\nTA DATA":"************************************************************************************************************************************************************************/",
+    "startHour":"8",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"Bilal Shah",
+            "email":"bilal.shah@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Dachi Vardidze",
+            "email":"dachi.vardidze@stonybrook.edu",
+            "isUnderGrad":false
+        },
+        {
+            "name":"Hasib Rezoan",
+            "email":"hasib.rezoan@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"John Doe",
+            "email":"john.doe@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Ryan Tam",
+            "email":"ryan.tam.rezoan@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Saeid Kader",
+            "email":"asm.kader@stonybrook.edu",
+            "isUnderGrad":true
+        }
+    ],
+    "grad_tas":[
+        {
+            "name":"Dachi Vardidze",
+            "email":"dachi.vardidze@stonybrook.edu"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"TUESDAY",
+            "time":"8_30am",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"MONDAY",
+            "time":"11_30am",
+            "name":"Saeid Kader"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"12_00pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"MONDAY",
+            "time":"1_00pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"2_00pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"2_30pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"FRIDAY",
+            "time":"3_00pm",
+            "name":"Jacob Evans"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"7_00pm",
+            "name":"Michael Mathew"
+        },
+        {
+            "day":"THURSDAY",
+            "time":"9_00pm",
+            "name":"Hsiang-Ju Lai"
+        },
+        {
+            "day":"FRIDAY",
+            "time":"10_30pm",
+            "name":"Aarin Chase"
+        }
+    ],
+    "RECITATION DATA":"************************************************************************************************************************************************************************/",
+    "recitations":[
+        {
+            "section":"R01",
+            "instructor":"Richard Mckenna",
+            "day_time":"Mondays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Wonyong Jeong",
+            "ta_2":"Jane Doe"
+        },
+        {
+            "section":"R02",
+            "instructor":"Richard Mckenna",
+            "day_time":"Wednesdays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Jerrel Sogoni",
+            "ta_2":"Abu Saeid"
+        },
+        {
+            "section":"R03",
+            "instructor":"Richard Mckenna",
+            "day_time":"Mondays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"James Hoffman",
+            "ta_2":"Bilal Shah"
+        },
+        {
+            "section":"R04",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Thursdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Milto Ndrenika",
+            "ta_2":"Hasib Rezoan"
+        },
+        {
+            "section":"R05",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Tuesdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2113",
+            "ta_1":"Michael Mathew",
+            "ta_2":"Ryan Tam"
+        },
+        {
+            "section":"R06",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Tuesdays, 4:00pm-4:53pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Ali Afzal",
+            "ta_2":"Dachi Vardidze"
+        }
+    ],
+    "SCHEDULE DATA":"************************************************************************************************************************************************************************/",
+    "startingMondayDay":"23",
+    "startingMondayMonth":"1",
+    "endingFridayMonth":"5",
+    "endingFridayDay":"19",
+    "schedule_items":[
+        {
+            "type":"Holiday",
+            "date":"02/09/2017",
+            "title":"SNOW DAY",
+            "time":"11:59pm",
+            "topic":"Something",
+            "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons",
+            "criteria":""
+        },
+        {
+            "type":"Lecture",
+            "date":"02/14/2017",
+            "title":"Lecture 3",
+            "time":"12:00am",
+            "topic":"Event Programming",
+            "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons",
+            "criteria":""
+        },
+        {
+            "type":"Holiday",
+            "date":"03/12/2017",
+            "title":"Spring Break",
+            "time":"11:00am",
+            "topic":"Event Programming",
+            "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons",
+            "criteria":""
+        },
+        {
+            "type":"HW",
+            "date":"03/27/2017",
+            "title":"HW3",
+            "time":"10:00am",
+            "topic":"UML",
+            "link":"https://www.youtube.com/watch?v=wKGX8EbYarU",
+            "criteria":""
+        },
+        {
+            "type":"HW",
+            "date":"04/14/2017",
+            "title":"HW4",
+            "time":"12:01am",
+            "topic":"Hard HW",
+            "link":"https://docs.google.com/spreadsheets/d/1hDY9OR4Nu5p2XLd3mkTB93y78Bnk3LInO0Ydkrz8gZg",
+            "criteria":"sddssdsdsd"
+        },
+        {
+            "type":"Lecture",
+            "date":"04/12/2017",
+            "title":"Lecture 4",
+            "time":"2:30pm",
+            "topic":"Hard Lecture",
+            "link":"https://docs.google.com/spreadsheets/d/1hDY9OR4Nu5p2XLd3mkTB93y78Bnk3LInO0Ydkrz8gZg",
+            "criteria":"sddssdsdsd"
+        }
+    ],
+    "PROJECT DATA":"************************************************************************************************************************************************************************/",
+    "Teams":[
+        {
+            "name":"C4 Comics",
+            "color":"#235399",
+            "text color":"#ffffff",
+            "link":"https://c4-comics.appspot.com"
+        },
+        {
+            "name":"Comx Central",
+            "color":"#525322",
+            "text color":"#ffffff",
+            "link":"https://comxcentral.appspot.com"
+        }
+    ],
+    "Students":[
+        {
+            "firstName":"Jane",
+            "lastName":"Doe",
+            "team":"C4 Comics",
+            "role":"Lead Programmer"
+        },
+        {
+            "firstName":"sdds",
+            "lastName":"sddssd",
+            "team":"Comx Central",
+            "role":"sdsd"
+        },
+        {
+            "firstName":"cc",
+            "lastName":"bhghh",
+            "team":"C4 Comics",
+            "role":"cbcbb"
+        }
+    ]
+}

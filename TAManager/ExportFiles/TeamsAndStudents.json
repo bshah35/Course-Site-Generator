@@ -1,0 +1,39 @@
+
+{
+    "teams":[
+        {
+            "name":"C4 Comics",
+            "red":"35",
+            "green":"83",
+            "blue":"153",
+            "text_color":"white"
+        },
+        {
+            "name":"Comx Central",
+            "red":"82",
+            "green":"83",
+            "blue":"34",
+            "text_color":"white"
+        }
+    ],
+    "students":[
+        {
+            "lastName":"Doe",
+            "firstName":"Jane",
+            "team":"C4 Comics",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"sddssd",
+            "firstName":"sdds",
+            "team":"Comx Central",
+            "role":"sdsd"
+        },
+        {
+            "lastName":"bhghh",
+            "firstName":"cc",
+            "team":"C4 Comics",
+            "role":"cbcbb"
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="description" content="CSE 380 - Computer Game Programming - Spring 2017 Syllabus Page" />
+        <title>CSE 380 Syllabus Page - Spring 2017</title> 
+        <link rel="stylesheet" type="text/css" href="./css/game_course_homepage_layout.css" />
+        <link rel="stylesheet" type="text/css" href="./css/sea_wolf.css" />	
+
+        <!-- LINK TO OUR JavaScript FILE AND JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="./js/OfficeHoursGridBuilder.js"></script>
+
+        <!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+        <script>
+            $(document).ready()
+            {
+                buildOfficeHoursGrid();
+            }
+            window.on
+        </script>
+    </head>
+
+    <body>
+
+        <div id="content">
+
+            <div id="navbar">
+                <a href="http://www.stonybrook.edu"><img class="sbu_navbar" alt="Stony Brook University" src="./images/SBUDarkRedShieldLogo.png" /></a>
+                <a id="home_link" class="nav" href="index.html">Home</a>
+                <a id="syllabus_link" class="open_nav" href="syllabus.html">Syllabus</a>
+                <a id="schedule_link" class="nav" href="schedule.html">Schedule</a>
+                <a id="hws_link" class="nav" href="hws.html">HWs</a>
+                <a id="projects_link" class="nav" href="projects.html">Projects</a>
+            </div>
+
+            <div id="banner">
+                CSE 380 - Spring 2017<br />
+                Computer Game Programming
+            </div>
+
+            <div id="desc">
+
+                <h3>COURSE DESCRIPTION</h3>
+
+                <p>An introduction to the fundamental concepts of computer game programming. Students design and develop
+                    original games for PCs applying proven game design and software engineering principles.</p>
+                <br />
+                <h3>COURSE OBJECTIVES</h3>
+
+                <ul>
+                    <li>Build and then integrate technologies such as multimedia, artificial intelligence, and physics modeling into a cohesive, interactive game application.</li>
+                    <li>Introduce the principles of game design that make for a playable experience.</li>
+                    <li>Learn and use software engineering, team project management, and prototype presentation principles in a game development context</li>
+                </ul>
+
+                <p><br /></p>
+
+                <h3>COURSE TOPICS</h3>
+
+                <ul>
+                    <li>GUI programming for games</li>
+                    <li>Tile-based graphics</li>
+                    <li>Page &amp; side scrolling algorithms</li>
+                    <li>Sprites &amp; bitmap animation</li>
+                    <li>Collision detection</li>
+                    <li>Physics based modeling</li>
+                    <li>Differing game types, modes, &amp; perspectives</li>
+                    <li>Game &amp; level design</li>
+                    <li>Rapid prototyping &amp; game testing</li>
+                    <li>Game project management</li>
+                    <li>Game design documentation</li>
+                    <li>Game program architecture</li>
+                    <li>Sound &amp; Music</li>
+                    <li>Game input devices</li>
+                    <li>Artificial Intelligence in games</li>
+                    <li>Pathfinding Algorithms</li>
+                    <li>Render Threading</li>
+                    <li>Efficient Memory Managment</li>
+                    <li>Game Timing</li>
+                    <li>Game Engine Design Patterns</li>
+                    <li>Optimization techniques</li>
+                    <li>Gaming industry issues</li>
+                    <li>Video game history</li>
+                </ul>
+
+                <p><br /></p>
+
+                <h3>REGISTRATION</h3>
+
+                <p>Those interested in registering for CSE 380 should be aware of the following:</p>
+                <ul>
+                    <li>You must have taken CSE 214 or CSE 230 or CSE 260 and received a C or better</li>
+                    <li>You should attend the first lecture to ensure your spot in the course.</li>
+                </ul>
+
+                <br /><br />
+
+
+                <h3>INSTRUCTOR</h3>
+                <table>
+                    <tr>
+                        <td style="font-size:14pt"><a href="http://www.cs.stonybrook.edu/~richard">
+                                Richard McKenna</a><br />
+                            <strong>richard@cs.stonybrook.edu</strong><br />
+                            216 New Computer Science Building<br />
+                            <strong>Office Hours:</strong><br />
+                            <table>
+                                <tr>
+                                    <td><strong>--Tuesdays</td><td style="padding-left:20px">4:00pm - 5:30pm</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>--Thursdays</td><td style="padding-left:20px">4:00pm - 5:30pm</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <img src="./images/RichardMcKenna.jpg" alt="Richard McKenna Profile" style="margin-left:30px;" />
+                        </td>
+                </table>
+
+                <br /><br />
+
+                <h3 id="tas">TEACHING ASSISTANT (Grading)</h3>
+
+   <table>
+    <tr>
+         <td class="tas"><img width="100" height="100" src="./images/tas/MousumiRoy.JPG" alt="Mousumi Roy" /><br />
+	<strong>Mousumi Roy</strong><br />
+	<span class="email">mnroy@cs.stonybrook.edu</span><br />
+        <br /><br /></td>
+	 
+	 <td class="tas"><img width="100" height="100" src="./images/tas/RushabhShah.JPG" alt="Rushabh Shah" /><br />
+	<strong>Rushabh Shah</strong><br />
+	<span class="email">rumshah@cs.stonybrook.edu</span><br />
+        <br /><br /></td>
+
+    </tr>
+   </table>	    <br />
+	    <br />
+
+                <h3 id="undergrad_tas">ASSISTANT to the Regional TEACHING ASSISTANT (Homework Guru - Office Hours in Old CS Building 2203)</h3>
+                
+            <table>
+                <tbody id="undergrad_tas">
+                    
+                </tbody>
+            </table>
+
+                <br />
+                <br />
+
+                <h3 id="office_hours_grid">OFFICE HOURS GRID</h3>
+                <table class="office_hours_schedule" cellspacing="0" border="1">
+                    <tbody id="office_hours_table">
+                        <tr>
+                            <th class="sch" width="150px">Start Time</th>
+                            <th class="sch" width="150px">End Time</th>
+                            <th class="sch" width="200px">MONDAY</th>
+                            <th class="sch" width="200px">TUESDAY</th>
+                            <th class="sch" width="200px">WEDNESDAY</th>
+                            <th class="sch" width="200px">THURSDAY</th>
+                            <th class="sch" width="200px">FRIDAY</th>
+                        </tr>                        
+                    </tbody>
+                </table>
+	    <br /> 
+	    <br />
+                <br />
+                <br />
+
+                <h3>LECTURE</h3>
+                <p>Tuesdays &amp; Thursdays<br />
+                    11:30 am - 12:50 pm<br />
+                    Old Computer Science 2120
+                </p>
+
+                <br /><br />
+
+                <h3>COURSE TECHNOLOGIES</h3>
+
+                <p>To be used in part for the individual and group projects:</p>
+
+                <ul>
+                    <li><strong>Platforms</strong>
+                        <ul>
+                            <li><a href="http://www.w3schools.com/js/">JavaScript</a></li>
+                            <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+                        </ul><br /></li>
+                    <li><strong>APIs</strong>
+                        <ul>
+                            <li><a href="https://phaser.io/">Phaser</a></li>
+                            <li><a href="http://www.lua.org/">Lua</a> scripting language</li>
+                            <li><a href="http://box2d.org/">Box2D</a> Physics Engine</li>
+                        </ul><br /></li>
+                    <li><strong>Tools</strong>
+                        <ul>
+                            <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> for software development</li>
+                            <li><a href="http://animated-poseur.appspot.com/">Animated Poseur</a> for Sprite editing</li>
+                            <li><a href="http://www.mapeditor.org/">Tiled</a> for map editing</li>
+                            <li><a href="https://www.iforce2d.net/rube/">RUBE</a> for Box2D level editing</li>
+                            <li><a href="http://www.gimp.org/">Gimp</a> for sprite sheet creation</li>
+                            <li><a href="http://audacity.sourceforge.net/">Audacity</a> for sound recording and editing</li>
+                        </ul><br /></li>
+                </ul>
+
+                <br /><br />
+
+                <h3>COURSE TEXTBOOKS</h3>
+
+                <p>Reading assignments may be given this semester from the following textbooks:</p>
+
+                <p><a href="http://www.gameenginebook.com/"><img style="float:left; padding-right:10px;" src="./images/books/GameEngineArchitecture.png" alt="Game Engine Architecture, 2nd Edition" /></a><a href="http://www.amazon.com/Game-Engine-Architecture-Second-Edition/dp/1466560010/ref=dp_ob_title_bk">Game Engine Architecture, 2nd Edition</a><br />
+                    by <a href="http://www.gameenginebook.com/bio.html">Jason Gregory</a><br />
+                    Published by A K Peters, 2014<br />
+                    ISBN 978-1466560017<br clear="all" /><br /></p>
+                
+                <p><a href="https://phaser.io/shop/books/discover-phaser"><img style="float:left; padding-right:10px;" src="./images/books/DiscoverPhaser.jpg" alt=""Discover Phaser" /></a>
+                    <a href="https://phaser.io/shop/books/discover-phaser">Discover Phaser</a><br />
+                    by Thomas Palef<br />
+                    PDF, ePub, &amp; Mobi Formats Available<br clear="all" /><br /></p>
+
+                <p><a href="http://realtimecollisiondetection.net/books/rtcd/"><img style="float:left; padding-right:10px;" src="./images/books/RealTimeCollisionDetection.png" alt="Real-Time Collision Detection" /></a><a href="http://www.amazon.com/Real-Time-Collision-Detection-Interactive-Technology/dp/1558607323">Real-Time Collision Detection</a><br />
+                    by <a href="http://realtimecollisiondetection.net/bio/">Christer Ericson</a><br />
+                    Published by Morgan Kaufmann, 2005<br />
+                    ISBN 978-1558607323<br clear="all" /><br /><br /></p>
+
+
+                <h3>REFERENCE TEXTBOOKS</h3>
+
+                <p>Content will also be referenced periodically from the following textbooks:</p>
+
+                <p><a href="http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;tid=9802"><img style="float:left; padding-right:10px;" src="./images/books/RulesOfPlay.jpg" alt="Rules of Play" /></a><a href="http://www.amazon.com/gp/product/0262240459/002-6143195-5854434?v=glance&amp;n=283155">Rules of Play: Game Design Fundamentals</a><br />
+                    by <a href="http://www.newschool.edu/parsons/faculty.aspx?id=48715">Katie Salen</a> and <a href="http://www.ericzimmerman.com/">Eric Zimmerman</a><br />
+                    Published by MIT Press, 2003<br />
+                    ISBN 0-262-24045-9<br clear="all" /><br /></p>
+
+                <p><a href="http://www.gameprogramminggems.com/"><img style="float:left; padding-right:10px;" src="./images/books/BestOfGameProgrammingGems.png" alt="Best of Game Programming Gems" /></a><a href="http://www.courseptr.com/Courses.aspx?q=gems">Best of Game Programming Gems</a><br />
+                    by <a href="http://www.satori.org/">Mark DeLoura</a><br />
+                    Published by Course Technology, 2008<br />
+                    ISBN 1-58450-571-0<br clear="all" /><br /></p>
+
+
+                <h3>COURSE COMPONENTS</h3>
+                <ul>
+                    <li><strong>Individual HW Assignments</strong> - Students will each work on a series of programming assignments that will require the implementation of specific game algorithms.<br /><br /></li>
+
+                    <li><strong>Midterm Exam</strong> - Students will be tested on the algorithms and programming techniques learned during the individual assignments. Note there is no final exam in the course.<br /><br /></li>
+
+                    <li><strong>Game Group Project &amp; Presentation</strong> - As the semester progresses, students will divide into teams of 3 that will design and develop original games. Teams may make games of whatever genre they like (i.e. Strategy, Action, Role Playing, etc.), as long as they are real-time games (not event-based) and they meet the benchmarked technical requirements. Group projects will be required to employ the <a href="http://www.lua.org/">Lua</a> scripting language and the <a href="http://box2d.org/">Box2D</a> Physics Engine. Teams will work together to come up with their own game concept, and then will decide how to divide the work fairly among the team members. Team programs will be <strong><em>presented</em></strong> to the class at the end of the semester. Each team member will receive a separate grade according to their contributions to the project and presentation. Grades will be based on technical game requirements as well as game design, playability, documentation, and presentation.<br />
+                        <br /></li>
+
+                    <li><strong>Group Project Benchmarks</strong> - Periodic benchmarks will adhere to the following rules:
+                        <ul>
+                            <li>Benchmarks will provide specific requirements from the instructor with regards to design, coding, and documentation.</li>
+                            <li>A grade will be given for each benchmark.</li>
+                            <li>Should a group miss a benchmark, groups may not make up that grade in the next one, but the project should continue</li>
+                            <li>Credit for group benchmarks will not be given for late completion.</li>
+                        </ul><br /></li>
+
+                    <li><strong>Class Participation</strong> - There will be some in-class design exercises to help students think more creatively and to get them thinking about game and level design as well as to learn new technologies.<br /><br /></li>
+                </ul>
+
+
+                <p><br /></p>
+
+                <h3>GRADING BREAKDOWN</h3>
+                <table>
+                    <tr>
+                        <td>Individual HW Assignments</td>
+                        <td align="right">20 %</td>
+                    </tr>
+                    <tr>
+                        <td>Midterm Exam</td>
+                        <td align="right">25 %</td>
+                    </tr>
+                    <tr>
+                        <td>Group Project Benchmarks</td>
+                        <td align="right">15 %</td>
+                    </tr>
+                    <tr>
+                        <td>Group Project Demo</td>
+                        <td align="right">35 %</td>
+                    </tr>
+                    <tr>
+                        <td>Class Participation</td>
+                        <td align="right">5 %</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="right"><strong>100 %</strong></td>
+                    </tr>
+                </table>
+
+                <p><br /></p>
+
+                <h3>ACADEMIC DISHONESTY</h3>
+
+                <p><strong>Read This!</strong> You may <em>discuss</em> the assignments in this course with anyone you like, however each student's submission
+                    must be his or her own work, and only his or her own work. Any evidence
+                    that a submission has been copied, shared, or transmitted <em>in any
+                        way</em> between students, or has been downloaded from the Internet, or
+                    has been written by others in previous semesters will be regarded as
+                    evidence of academic dishonesty. Additionally, any evidence of sharing
+                    of information or using unauthorized information during an examination
+                    will also be regarded as evidence of academic dishonesty. </p>
+                <p>The College of Engineering and Applied Sciences regards
+                    academic dishonesty as a very serious matter, and provides for
+                    substantial penalties in such cases, such as receiving an `F' grade, or
+                    expulsion from the University. For more information, obtain a copy of
+                    the CEAS guidelines on academic dishonesty from the CEAS office. </p>
+                <p><strong>Be advised that any evidence of academic dishonesty will
+                        be treated with utmost seriousness. Those involved will be prosecuted
+                        to the fullest extent permitted by the University and College laws. <span style="color:#ff0000">If you have a situation that may tempt you into doing
+                            something academically dishonest, resist the urge and speak with your
+                            instructor during office hours for help.</span></strong></p>
+
+                <p><br /><br /></p>
+
+                <h3>SPECIAL ASSISTANCE</h3>
+
+                <p>If you have a physical, psychological, medical or learning disability that may impact on your ability to carry out assigned course work, I would urge that you contact the staff in the Disabled Student Services office (DSS) in the ECC building (where the Computer Store used to be), 632-6748v/tdD. DSS will review your concerns and determine with you what accommodations are necessary and appropriate. All information and documentation of disability are confidential.</p>
+
+                <p>If you need general computer help, you can use the Computer Science Help Desk. Services offered include setting up an account on a department server, using Windows NT, using a browser, and connecting to the campus network. The Help Desk office is located in the SBCS Office - Room 2110.</p>
+
+
+                <hr />
+                <br />
+
+                <a href="http://www.stonybrook.edu"><img class="stonybrook" src="./images/SBUWhiteShieldLogo.jpg" alt="Stony Brook University" /></a>
+                <a href="http://www.cs.stonybrook.edu"><img class="cs" src="./images/CSLogo.png" alt="CS" /></a>
+                <p class="footer">
+                    Web page created and maintained<br />
+                    by <a href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a><br />
+                </p>
+                <br /><br />
+            </div>
+        </div>
+
+    </body>
+</html>

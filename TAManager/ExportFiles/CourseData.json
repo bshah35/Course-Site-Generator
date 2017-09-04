@@ -1,0 +1,18 @@
+
+{
+    "instructor_link":[
+        {
+            "instructor_name":"Richard MC",
+            "instructor_home":"www.rich~@cs.edu"
+        }
+    ],
+    "banner":[
+        {
+            "subject":"CSE",
+            "semester":"Spring",
+            "course_number":"219",
+            "course_year":"2017",
+            "course_title":"Computer Science III"
+        }
+    ]
+}

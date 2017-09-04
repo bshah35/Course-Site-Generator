@@ -1,0 +1,95 @@
+
+{
+    "startHour":"8",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"Bilal Shah",
+            "email":"bilal.shah@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Dachi Vardidze",
+            "email":"dachi.vardidze@stonybrook.edu",
+            "isUnderGrad":false
+        },
+        {
+            "name":"Hasib Rezoan",
+            "email":"hasib.rezoan@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"John Doe",
+            "email":"john.doe@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Ryan Tam",
+            "email":"ryan.tam.rezoan@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Saeid Kader",
+            "email":"asm.kader@stonybrook.edu",
+            "isUnderGrad":true
+        }
+    ],
+    "grad_tas":[
+        {
+            "name":"Dachi Vardidze",
+            "email":"dachi.vardidze@stonybrook.edu"
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"TUESDAY",
+            "time":"8_30am",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"MONDAY",
+            "time":"11_30am",
+            "name":"Saeid Kader"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"12_00pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"MONDAY",
+            "time":"1_00pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"2_00pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"2_30pm",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"FRIDAY",
+            "time":"3_00pm",
+            "name":"Jacob Evans"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"7_00pm",
+            "name":"Michael Mathew"
+        },
+        {
+            "day":"THURSDAY",
+            "time":"9_00pm",
+            "name":"Hsiang-Ju Lai"
+        },
+        {
+            "day":"FRIDAY",
+            "time":"10_30pm",
+            "name":"Aarin Chase"
+        }
+    ]
+}

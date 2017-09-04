@@ -1,0 +1,48 @@
+
+{
+ 
+    "Recitation":[
+        {
+            "sections":"R01",
+            "instructor":"Richard Mckenna",
+            "day_time":"Mondays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta1":"Wonyong Jeong"
+        },
+        {
+            "sections":"R02",
+            "instructor":"Richard Mckenna",
+            "day_time":"Wednesdays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta1":"Jerrel Sogoni"
+        },
+        {
+            "sections":"R03",
+            "instructor":"Richard Mckenna",
+            "day_time":"Mondays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta1":"James Hoffman"
+        },
+        {
+            "sections":"R04",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Thursdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta1":"Milto Ndrenika"
+        },
+        {
+            "sections":"R05",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Tuesdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2113",
+            "ta1":"Michael Mathew"
+        },
+        {
+            "sections":"R06",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Tuesdays, 4:00pm-4:53pm",
+            "location":"Old Computer Science 2114",
+            "ta1":"Ali Afzal"
+        }
+    ]
+}

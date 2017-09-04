@@ -1,0 +1,1034 @@
+/* 
+    This style sheet stylizes the controls inside our
+    CSG Manager JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    Note that it may seem overwhelming to see so many different
+    style classes, even though our application doesn't have that
+    many controls, but what this allows us to do is easily
+    control and update the style of the entire user interface
+    via a stylesheet without having the change Java code.
+
+    Updated by: Bilal Shah
+    Version:	1.0
+*/
+.root{
+
+}
+
+.dialog_pane {
+    -fx-padding:15;
+}
+
+.dialog_heading {
+    -fx-font-size: 24pt;
+    -fx-color:red;
+}
+
+.dialog_prompt {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.plain_pane{
+
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: blue; 
+    -fx-font-size: 18px;
+
+}
+.tag_button{
+       -fx-background-color: 
+         #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 8 8 8;
+ 
+}
+
+.tab-pane>*.tab-header-area>*.tab-header-background{
+    -fx-background-image: url("https://wallpapers.ws/large/201504/21521.jpg"); 
+}
+
+.course_data_tab{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family:"Courier New"; 
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 4 7 4 4;
+    -fx-background-color: white;
+
+}
+
+.ta_data_tab{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family:"Courier New"; 
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 4 7 4 7;
+    -fx-background-color: white;
+
+}
+
+
+.recitation_data_tab{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family:"Courier New"; 
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 4 7 4 7;
+    -fx-background-color: white;
+
+}
+
+.schedule_data_tab{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family:"Courier New"; 
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 4 7 4 7;
+    -fx-background-color: white;
+
+}
+
+.project_data_tab{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family:"Courier New"; 
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 4 7 4 4;
+    -fx-background-color: white;
+
+}
+
+.bordered_pane {
+    -fx-background-image: url("http://res.freestockphotos.biz/pictures/9/9090-an-abstract-blue-background-pv.jpg");
+    -fx-background-radius: 5.0;
+    -fx-padding: 15 15 15 25;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #073275;
+}
+
+.course_info_header_pane{
+            -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+}
+
+.course_info_header_label{
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 20pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_site_template_header_pane{
+          -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+}
+
+.course_site_template_header_label{
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 20pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_info_background_pane{
+    -fx-padding: 15 0 18 0;
+    -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.course_subject_label{
+    -fx-padding: 0 145 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_number_label{
+    -fx-padding: 0 90 0 90;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_semester_label{
+    -fx-padding: 0 135 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_year_label{
+    -fx-padding: 0 110 0 90;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_title_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_instructor_name_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_instructor_home_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_export_dir_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_export_dir_site_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 12pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_subject_combo{
+    -fx-background-color: 
+         #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 4 4 4 4;
+}
+
+.course_number_combo{
+    -fx-background-color: 
+         #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 4 4 4 4;
+}
+
+.course_semester_combo{
+    -fx-background-color: 
+         #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 4 4 4 4;
+}
+
+.course_year_combo{
+    -fx-background-color: 
+         #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 4 4 4 4;
+}
+
+.course_change_button_text{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 4;
+}
+
+.course_site_sent_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 12pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold; 
+}
+
+.course_site_template_dir_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 12pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_site_pages_header_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 16pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_site_template_button{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+    -fx-padding: 3;
+}
+
+.course_site_template_pane{
+     -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.course_site_page_pane{
+ -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.course_page_style_header_pane{
+    -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+}
+
+.course_page_style_pane{
+     -fx-padding: 50 0 0 0;
+     -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.course_pages_style_header_label{
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 20pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_banner_image_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_leftfooter_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_rightfooter_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_stylesheet_label{
+    -fx-padding: 0 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.course_note_label{
+    -fx-padding: 35 0 0 18;
+    -fx-font-size: 13pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-style: italic
+}
+
+.header_pane{
+   -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+
+}
+.recitation_header_pane{
+    -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+.recitation_header_label{
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 20pt;
+    -fx-color: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+
+}
+.recitation_add_edit_header_label{
+    -fx-padding: 0 0 7 10;
+    -fx-font-size: 20pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.recitation_add_edit_header_pane{
+    -fx-padding: 3;
+    -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+
+}
+
+.recitation_section_label{
+    -fx-padding: 0 0 0 38;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.recitation_instructor_label{
+    -fx-padding: 0 0 0 38;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.recitation_location_label{
+    -fx-padding: 0 0 0 38;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.recitation_date_label{
+    -fx-padding: 0 0 0 38;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.recitation_ta_label{
+    -fx-padding: 0 0 0 38;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+
+}
+.recitation_combo_button_text{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 0;
+}
+
+.recitation_add_button_text{
+    -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 8 8 8 8;
+}
+
+.recitation_clear_button_text{
+    -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 8 8 8 8;;
+}
+.recitation_ta_pane{
+    -fx-padding: 30 20 15 500; 
+}
+
+.schedule_header_pane{
+   -fx-padding: 5 0 15 0;
+   -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+
+}
+
+.schedule_calendar_bounderies_header_pane{
+    -fx-padding: 0 0 20 0;
+    -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg"); 
+
+}
+
+.schedule_header_label{
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 20pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_calendar_bounderies_header_label{
+    -fx-padding: 5 0 25 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_start_calendar_bounderies_label{
+    -fx-padding: 0 15 0 16;
+    -fx-font-size: 13pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_end_calendar_bounderies_label{
+    -fx-padding: 0 15 0 150;
+    -fx-font-size: 13pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_items_header_pane{
+    -fx-padding: 5 0 0 10;
+    -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+}
+
+.schedule_items_header_label{
+    -fx-padding: 5 0 10 0;
+    -fx-font-size: 17pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_add_edit_header_pane{
+    -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.schedule_add_edit_header_label{
+    -fx-padding: 5 0 10 15;
+    -fx-font-size: 18pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_type_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_topic_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_title_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_date_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_link_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_criteria_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.schedule_add_pane{
+    -fx-padding: 0 20 5 16; 
+}
+
+.schedule_add_button{
+    -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 8 8 8 8;
+}
+
+.schedule_update_button{
+    
+}
+
+.schedule_clear_button{
+    -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 8 8 8 8;
+}
+
+.schedule_combo_button{
+    -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 0;
+}
+
+.projects_header_pane{
+    -fx-padding: 5 0 15 0;
+    -fx-background-image: url("http://www.lightsourcesolutions.net/New-LSS-Website/wp-content/uploads/LSS-Header-Background.jpg"); 
+}
+
+.projects_header_label{
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 20pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_header_pane{
+    -fx-padding: 5 0 0 10;
+    -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+}
+
+.projects_teams_header_label{
+    -fx-padding: 5 0 10 0;
+    -fx-font-size: 18pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_add_edit_header_pane{
+     -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.projects_teams_add_edit_header_label{
+    -fx-padding: 15 0 10 16;
+    -fx-font-size: 17pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_name_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_color_label{
+    -fx-padding: 0 50 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_text_color_label{
+    -fx-padding: 0 50 0 150;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_link_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_teams_color_prompt_label{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 0;
+}
+
+.project_add_pane{
+    -fx-padding: 160 20 5 16; 
+}
+
+.project_add_button{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 8 8 8 8;
+}
+
+.project_clear_button{
+    -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 8 8 8 8;
+}
+
+.projects_students_header_pane{
+     -fx-padding: 5 0 0 10;
+    -fx-background-image: url("http://www.spinor.com/common/header.jpg");
+    
+}
+
+.projects_students_header_label{
+    -fx-padding: 5 0 10 0;
+    -fx-font-size: 18pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_students_add_edit_header_pane{
+    -fx-background-image: url("https://www.walldevil.com/wallpapers/w03/900189-abstract-blue-computer-graphics-design-digital-art-lines-minimalistic.jpg");
+}
+
+.projects_students_add_edit_header_label{
+    -fx-padding: 15 0 10 16;
+    -fx-font-size: 17pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_first_name_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_last_name_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_students_team_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.projects_students_role_label{
+    -fx-padding: 0 0 0 16;
+    -fx-font-size: 15pt;
+    -fx-text-fill:white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.top_pane{
+    -fx-border-color: black;
+    -fx-border-width: 2.5px
+}
+
+.bottom_pane{
+    -fx-border-color: black;
+    -fx-border-width: 1.5px
+}
+
+.header_label {
+    -fx-padding: 0 0 0 10;
+    -fx-font-size: 19pt;
+    -fx-text-fill: white;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.ta_table{
+    -fx-font-size: 14pt;
+    -fx-font-family: "Courier New";
+    -fx-background-radius: 10 10 10 10; 
+    -fx-border-color: #4b0082;
+}
+
+.recitation_table{
+     -fx-font-size: 14pt;
+    -fx-font-family: "Courier New";
+    -fx-background-radius: 14; 
+    -fx-border-color: #4b0082;
+}
+
+.table-view .column-header.ta_table_column_header .label {
+    -fx-font-family: "Courier New";
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-background-color:  #00008b;
+
+}
+
+.add_ta_pane{
+    -fx-padding: 4 9 .005 9;
+}
+
+.add_ta_text_field{
+
+}
+
+.add_ta_button{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 4;
+
+
+}
+
+.update_ta_button{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 4;
+}
+
+.update_office_hours_button{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 4;
+}
+.start_time{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: -2;
+}
+
+.end_time{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: -2;
+}
+
+.clear_ta_button{
+     -fx-background-color: 
+          #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+    -fx-padding: 4;
+}
+
+.office_hours_grid{
+    -fx-border-color: #000000; 
+
+}
+
+.office_hours_grid_time_column_header_pane{
+    -fx-background-color:  #00008b;
+    -fx-border-color: white;; 
+    -fx-padding: 8 6.49 8 6.49;
+
+}
+
+.office_hours_grid_time_column_header_label{
+    -fx-font-family: "Courier New";
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+
+
+
+}
+
+.office_hours_grid_day_column_header_pane{
+    -fx-background-color:  #00008b;
+    -fx-border-color: white; 
+    -fx-padding: 8 6.49 8 6.49;
+}
+
+.office_hours_grid_day_column_header_label{
+    -fx-font-family: "Courier New";
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+
+}
+
+.office_hours_grid_time_cell_pane{
+    -fx-border-style: dotted;
+    -fx-border-width: .75px;
+    -fx-border-color: white; 
+    -fx-padding: 2 6.8 2 6.8;
+    -fx-background-color: #000099;
+}
+
+.office_hours_grid_time_cell_label{
+    -fx-font-family: "Courier New";
+    -fx-text-fill:white;
+    -fx-padding: 0 6 0 9;
+}
+
+.office_hours_grid_ta_cell_pane{
+    -fx-border-color: #000000; 
+    -fx-padding: 5.5 6.49 5.5 6.49;
+    -fx-background-color: #999966;
+}
+
+.office_hours_grid_ta_cell_label{
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+}
+
+.office_hours_grid_mouse_on_ta_cell_pane{
+    -fx-border-color: yellow; 
+
+
+}
+
+

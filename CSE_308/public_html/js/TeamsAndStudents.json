@@ -1,0 +1,66 @@
+{
+    "teams": [
+        {
+            "name": "Aqua",
+            "red": "0",
+            "green": "255",
+            "blue": "255",
+            "text_color": "black"
+        },
+        {
+            "name": "Aquamarine",
+            "red": "127",
+            "green": "255",
+            "blue": "212",
+            "text_color": "black"
+        },
+        {
+            "name": "Battery Charge Blue",
+            "red": "103",
+            "green": "200",
+            "blue": "255",
+            "text_color": "black"
+        },
+        {
+            "name": "BlackTack",
+            "red": "0",
+            "green": "0",
+            "blue": "0",
+            "text_color": "white"
+        },
+        {
+            "name": "BlurpleinRulple",
+            "red": "65",
+            "green": "0",
+            "blue": "255",
+            "text_color": "white"
+        }
+    ],
+    "students": [
+        {
+            "lastName": "DelSignore",
+            "firstName": "Matthew",
+            "team": "Aqua",
+            "role": "Lead Designer"
+        },
+        {
+            "lastName": "DeCarlo",
+            "firstName": "James",
+            "team": "Aqua",
+            "role": "Lead Programmer"
+        },
+        {
+            "lastName": "Maskaliova",
+            "firstName": "Maryia",
+            "team": "Aqua",
+            "role": "Data Designer"
+        },
+
+        {
+            "lastName": "Goepfert",
+            "firstName": "Ryan",
+            "team": "Aqua",
+            "role": "Project Manager"
+        }
+    ]
+}

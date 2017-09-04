@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the Desktop Java Framework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="Course Site Generator"></property>
+        <property name="APP_LOGO"	    value="CSGLogo.png"></property>
+        <property name="APP_PATH_CSS"	    value="style/"></property>
+        <property name="APP_CSS"	    value="tam_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="SAVE_AS_ICON"	    value="SaveAs.png"></property>
+        <property name="EXPORT_ICON"        value="Export.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property> 
+        <property name="DELETE_ICON"        value="Remove.png"></property>
+        <property name="UNDO_ICON"          value="Undo.png"></property>
+        <property name="REDO_ICON"          value="Redo.png"></property>
+        <property name="ABOUT_ICON"         value="About.png"></property> 
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="ایک نئے ٹی اے گرڈ کی تعمیر"></property>
+        <property name="LOAD_TOOLTIP"		value="ایک موجودہ TA گرڈ لوڈ کریں"></property>
+        <property name="SAVE_TOOLTIP"		value="موجودہ TA گرڈ محفوظ کریں"></property>
+        <property name="SAVE_AS_TOOLTIP"        value="محفوظ کریںدائر کرنے موجودہ TA گرڈ "></property>
+        <property name="EXPORT_TOOLTIP"         value="اشیاء برآمد"></property>
+        <property name="EXIT_TOOLTIP"		value="درخواست سے باہر نکلیں"></property>
+        <property name="UNDO_TOOLTIP"           value="کالعدم کریں (Ctrl+Z)"></property>
+        <property name="REDO_TOOLTIP"           value="دوبارہ کریں (Ctrl+Y)"></property>
+        <property name="ABOUT_TOOLTIP"          value="کورس سائٹ جنریٹر کے بارے میں"></property>
+        <property name="DELETE_TOOLTIP"         value="آئٹم حذف"></property>
+        
+        <!-- TABS -->
+        <property name="COURSE_DATA_TAB"                value="کورس کی تفصیلات"></property>
+        <property name="TA_DATA_TAB"                    value=" ڈیٹاTA"></property>
+        <property name="RECITATIONS_DATA_TAB"           value="قرآت ڈیٹا"></property>
+        <property name="SCHEDULE_DATA_TAB"              value="شیڈول ڈیٹا"></property>
+        <property name="PROJECT_DATA_TAB"               value="پروجیکٹ ڈیٹا"></property>
+         
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="بند"></property>
+        <property name="NEW_ERROR_MESSAGE"              value="ایک خرابی نئے کام کو کرنے آگئی"></property>
+        <property name="NEW_ERROR_TITLE"		value="نیا کام میں خرابی"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="ایک خرابی لوڈنگ کا کام واقع ہوئی"></property>
+        <property name="LOAD_ERROR_TITLE"		value="لوڈ کے کام میں خرابی"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="ایک خرابی کا کام بچت واقع ہوئی"></property>
+        <property name="SAVE_ERROR_TITLE"		value="محفوظ کریں کام میں خرابی"></property>
+        <property name="EXPORT_ERROR_TITLE"		value="ایکسپورٹ"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="واقع ہوئیایک خامی ایک خواص کی فائل کو لوڈ"></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="پراپرٹیز لوڈ کرنے میں خامی فائل"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="ترمیم کے لئے نئے کام کے لئے تیار ہیں"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="پیدا نئے کام"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="لئے تیارفائل لوڈ ہو رہا ہے مکمل اور ترمیم کے "></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="لوڈ ہو رہا ہے مکمل"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="فائل کو محفوظ مکمل"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="مکمل محفوظ"></property>
+        <property name="EXPORT_COMPLETED_MESSAGE"       value="فائل ایکسپورٹ مکمل"></property>
+        <property name="EXPORT_COMPLETED_TITLE"		value="مکمل برآمد"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="آپ پہلے اپنے غیر محفوظ کردہ کام کو بچانے کے لئے چاہتے ہیں؟ "></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="غیر محفوظ کردہ کام کو محفوظ کریں؟"></property>
+        <property name="OFFICE_HOUR_UPDATE_TITLE"	value="دفتر کے اوقات کو اپ ڈیٹ کریں"></property>
+        <property name="OFFICE_HOUR_UPDATE_MESSAGE"	value="خلیات، TA ناموں پر مشتمل آپ کو اپ ڈیٹ کرنے کے لئے پسند کریں گے؟"></property>
+        
+    
+	
+        <property name="NEW_CREATED_MESSAGE"		value="نیا کام پیدا کیا لیکن ابھی تک محفوظ نہیں"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="کام لوڈ کیا گیا ہے"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="کام محفوظ ہوگئی ہے"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="آپ پہلے اپنے غیر محفوظ کردہ کام کو بچانے کے لئے کرنا چاہتے ہیں؟"></property>
+        <property name="SAVE_WORK_TITLE"		value="آپ کے کام کو محفوظ کریں"></property>
+        <property name="LOAD_WORK_TITLE"		value="لوڈ کرنے کے لئے کام کی فائل منتخب کریں"></property>
+        <property name="WORK_FILE_EXT"			value=".json"></property>
+        <property name="WORK_FILE_EXT_DESC"		value="TA دفتر کے اوقات"></property>
+        
+        <!-- COURSE WORKSPACE CONTROLS STUFF --> 
+        <property name="COURSE_INFO_HEADER_TEXT"         value="کورس کی معلومات"></property>
+        <property name="COURSE_SUBJECT_LABEL_TEXT"       value="مضمون:"></property>
+        <property name="COURSE_NUMBER_LABEL_TEXT"        value="تعداد:"></property>
+        <property name="COURSE_YEAR_LABEL_TEXT"          value="چھانٹیں:"></property>
+        <property name="COURSE_SEMESTER_LABEL_TEXT"      value="سمسٹر:"></property>
+        <property name="COURSE_TITLE_LABEL_TEXT"         value="عنوان:"></property>
+        <property name="COURSE_INSTRUCTOR_NAME_LABEL_TEXT"         value="انسٹرکٹر کا نام:"></property>
+        <property name="COURSE_INSTRUCTOR_HOME_LABEL_TEXT"         value="انسٹرکٹر ہوم:"></property>
+        <property name="COURSE_EXPORT_DIR_LABEL_TEXT"              value="ایکسپورٹ ڈائرکٹری:"></property>
+        <property name="COURSE_EXPORT_DIR_SITE_LABEL_TEXT"         value="..\..\..\ کورسز \CESE219\Summer2017 عوامی \"></property>
+        <property name="COURSE_CHANGE_BUTTON_TEXT"                 value="تبدیل کریں"></property>
+        <property name="COURSE_SITE_TEMPLATE_HEADER_TEXT"          value="ویب سائٹ کا سانچہ"></property>
+        <property name="COURSE_SITE_LABEL_TEXT"                    value="ڈائریکٹری تبدیل کریں: (یہاں لیبل)"></property>
+        <property name="COURSE_SITE_TEMPLATE_DIR_LABEL_TEXT"       value=".\templates\CSE219"></property>
+        <property name="COURSE_TEMPLATE_BUTTON_TEXT"               value="سانچہ ڈائرکٹری منتخب کریں"></property>
+        <property name="COURSE_SITE_PAGES_HEADER_TEXT"             value="ویب صفحات"></property>
+        <property name="COURSE_USE_COLUMN_TEXT"                    value="استعمال"></property>
+        <property name="COURSE_NAVBAR_TITLE_COLUMN_TEXT"           value="نوگتو بار"></property>
+        <property name="COURSE_FILE_NAME_COLUMN_TEXT"              value="فائل کا نام"></property>
+        <property name="COURSE_SCRIPT_COLUMN_TEXT"                 value="سکرپٹ"></property>  
+        <property name="COURSE_SUBJECT_COMBO_PROMPT_TEXT"                     value="موضوع منتخب"></property>
+        <property name="COURSE_NUMBER_COMBO_PROMPT_TEXT_TEXT"                 value="کورس نمبر منتخب کریں"></property>
+        <property name="COURSE_SEMESTER_COMBO_PROMPT_TEXT"                    value="سمسٹر کریں"></property>
+        <property name="COURSE_YEAR_COMBO_PROMPT_TEXT"                        value="سال منتخب کریں"></property>
+        <property name="COURSE_TITLE_PROMPT_TEXT"                             value="کمپیوٹر سائنس III"></property>
+        <property name="COURSE_INSTRUCTOR_NAME_PROMPT_TEXT"                   value="Richard McKenna"></property>
+        <property name="COURSE_INSTRUCTOR_HOME_PROMPT_TEXT"                   value="http://www.cs.stonybrook.edu/~richard"></property>
+        <property name="COURSE_PAGE_STYLE_HEADER_LABEL_TEXT"                  value="صفحہ انداز"></property>
+        <property name="COURSE_BANNER_SCHOOL_IMAGE_TEXT"                      value="بینر سکول تصویر:"></property>
+        <property name="COURSE_LEFT_FOOTER_IMAGE_TEXT"                        value="بائیں فوٹر تصویر:"></property>
+        <property name="COURSE_RIGHT_FOOTER_IMAGE_TEXT"                       value="دایاں فوٹر تصویر:"></property>
+        <property name="COURSE_STYLE_SHEET_TEXT"                              value="قرطاس طرز:"></property>
+        <property name="COURSE_STYLE_SHEET_COMBO_PROMPT_TEXT"                 value="سٹائل منتخب"></property>
+        <property name="COURSE_NOTE_LABEL_TEXT"                               value="نوٹ: نیا سٹائل کام / CSS میں رکھا جا سکتا ہے کو منتخب کیا جا کرنے کے لئے"></property>
+                
+        <!-- TA WORKSPACE CONTROLS STUFF -->        
+        <property name="TAS_HEADER_TEXT"                 value="ٹیچنگ اسسٹنٹ"></property>
+        <property name="NAME_COLUMN_TEXT"                value="نام"></property>
+        <property name="EMAIL_COLUMN_TEXT"               value="الکٹرانک میل"></property>
+        <property name="NAME_PROMPT_TEXT"                value="نام"></property>
+        <property name="EMAIL_PROMPT_TEXT"               value="الکٹرانک میل"></property>
+        <property name="ADD_BUTTON_TEXT"                 value="TA شامل کریں"></property>
+        <property name="UPDATE_BUTTON_TEXT"              value="TA اپ ڈیٹ"></property>
+        <property name="UPDATE_OFFICE_HOURS_BUTTON_TEXT" value="اپ ڈیٹ گھنٹے"></property>
+        <property name="START_TIME_BUTTON_TEXT"          value="وقت آغاز"></property>
+        <property name="END_TIME_BUTTON_TEXT"            value="آخر وقت"></property>
+        <property name="CLEAR_BUTTON_TEXT"               value="صاف"></property>
+        <property name="OFFICE_HOURS_SUBHEADER"          value="دفتر کے اوقات گرڈ"></property>
+        <property name="UNDERGRAD_COLLUMN_TEXT"          value="انڈرگریجویٹ"></property>
+        
+        <!-- RECITATION WORKSPACE CONTROLS STUFF -->        
+        <property name="RECITATION_HEADER_TEXT"          value="قرآت"></property>
+        <property name="RECITATION_ADD_EDIT_HEADER_TEXT" value="شامل کریں / ترمیم کریں"></property>
+        <property name="SECTION_COLUMN_TEXT"             value="سیکشن"></property>
+        <property name="INSTRUCTOR_COLUMN_TEXT"          value="انسٹرکٹر"></property>
+        <property name="DAY_TIME_COLUMN_TEXT"            value="دن / وقت"></property>
+        <property name="LOCATION_COLUMN_TEXT"            value="مقام"></property>
+        <property name="TA_NAME_COLUMN_TEXT"             value="ٹیچنگ اسسٹنٹ"></property>
+        <property name="SECTION_LABEL_TEXT"              value="سیکشن:"></property>
+        <property name="INSTRUCTOR_LABEL_TEXT"           value="انسٹرکٹر:"></property>
+        <property name="DAY_TIME_LABEL_TEXT"             value="دن / وقت:"></property>
+        <property name="LOCATION_LABEL_TEXT"             value="مقام:"></property>
+        <property name="TA_LABEL_TEXT"                   value="TA کی نگرانی:"></property>
+        <property name="SECTION_PROMPT_TEXT"             value="R01"></property>
+        <property name="INSTRUCTOR_PROMPT_TEXT"          value="Richard Mckenna"></property>
+        <property name="DAY_TIME_PROMPT_TEXT"            value="پیر کے روز، 3: 30 بجے-4: 23pm"></property>
+        <property name="LOCATION_PROMPT_TEXT"            value="پرانے کمپیوٹر سائنس 2114"></property>
+        <property name="RECITATION_TA_NAME_COMBO_TEXT"   value="TA نام کی فہرست"></property>
+        <property name="RECITATION__ADD_BUTTON_TEXT"     value="شامل کریں / اپ ڈیٹ"></property>
+        <property name="RECITATION_UPDATE_BUTTON_TEXT"   value="اپ ڈیٹ قرات"></property>
+        <property name="RECITATION__CLEAR_BUTTON_TEXT"   value="صاف"></property>
+        
+        <!-- SCHEDULE WORKSPACE CONTROLS STUFF --> 
+        <property name="SCHEDULE_HEADER_TEXT"            value="شیڈول"></property>
+        <property name="SCHEDULE_CALENDAR_HEADER_TEXT"   value="کیلنڈر حدود"></property>
+        <property name="SCHEDULE_START_CALENDAR_TEXT"    value="پیر کو شروع ہو رہا ہے:"></property>
+        <property name="SCHEDULE_END_CALENDAR_TEXT"      value="جمعہ کو ختم ہونے والے:"></property>
+        <property name="SCHEDULE_START_DATE_TEXT"        value="منتخب شروع کرنے کی تاریخ"></property>
+        <property name="SCHEDULE_END_DATE_TEXT"          value="منتخب تاریخ اختتام"></property>
+        <property name="SCHEDULE_ITEMS_TEXT"             value="شیڈول اشیا"></property>
+        <property name="SCHEDULE_TYPE_COLUMN_TEXT"       value="قسم"></property>
+        <property name="SCHEDULE_DATE_COLUMN_TEXT"       value="تاریخ"></property>
+        <property name="SCHEDULE_TITLE_COLUMN_TEXT"      value="سرخی"></property>
+        <property name="SCHEDULE_TOPIC_COLUMN_TEXT"      value="موضوع"></property>
+        <property name="SCHEDULE_ADD_EDIT_HEADER_TEXT"   value="شامل کریں / ترمیم کریں"></property>
+        <property name="SCHEDULE_TYPE_LABEL_TEXT"        value="قسم:"></property>
+        <property name="SCHEDULE_DATE_LABEL_TEXT"        value="تاریخ:"></property>
+        <property name="SCHEDULE_TOPIC_LABEL_TEXT"       value="موضوع:"></property>
+        <property name="SCHEDULE_TITLE_LABEL_TEXT"       value="عنوان:"></property>
+        <property name="SCHEDULE_LINK_LABEL_TEXT"        value="لنک:"></property>
+        <property name="SCHEDULE_CRITERIA_LABEL_TEXT"    value="معیار:"></property>
+        <property name="SCHEDULE_ADD_BUTTON_TEXT"        value="شامل کریں / اپ ڈیٹ"></property>
+        <property name="SCHEDULE_UPDATE_BUTTON_TEXT"     value="اپ ڈیٹ"></property>
+        <property name="SCHEDULE_CLEAR_BUTTON_TEXT"      value="صاف"></property>
+        <property name="SCHEDULE_TYPE_COMBO_TEXT"        value="قسم منتخب کریں"></property>
+        <property name="SCHEDULE_DATE_PROMPT_TEXT"       value="تاریخ منتخب"></property>
+        <property name="SCHEDULE_TOPIC_PROMPT_TEXT"      value="ٹھیک کرنا"></property>
+        <property name="SCHEDULE_LINK_PROMPT_TEXT"       value="http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons"></property>
+        <property name="SCHEDULE_TITLE_PROMPT_TEXT"      value="برف دن"></property>
+        <property name="SCHEDULE_CRITERIA_PROMPT_TEXT"   value="-"></property>
+        
+        <!-- PROJECT WORKSPACE CONTROLS STUFF --> 
+        <property name="PROJECT_HEADER_TEXT"            value="پروجیکٹس"></property>
+        <property name="PROJECT_TEAMS_HEADER_TEXT"      value="ٹیمیں"></property>
+        <property name="PROJECT_NAME_COLUMN_TEXT"       value="نام"></property>
+        <property name="PROJECT_COLOR_COLUMN_TEXT"      value="رنگین (ہیکس #)"></property>
+        <property name="PROJECT_TEXT_COLUMN_TEXT"       value="متن کا رنگ (ہیکس #)"></property>
+        <property name="PROJECT_LINK_COLUMN_TEXT"       value="لنک"></property>
+        <property name="PROJECT_ADD_EDIT_HEADER_TEXT"   value="ٹیمیں ترمیم میں شامل کریں"></property>
+        <property name="PROJECT_STUDENT_ADD_EDIT_HEADER_TEXT"   value="طلباء / ترمیم شامل کریں"></property>
+        <property name="PROJECT_NAME_LABEL_TEXT"                value="آپ کا نام:"></property>
+        <property name="PROJECT_COLOR_LABEL_TEXT"               value="رنگ:"></property>
+        <property name="PROJECT_TEXT_COLOR_LABEL_TEXT"          value="متن کا رنگ:"></property>
+        <property name="PROJECT_LINK_LABEL_TEXT"                value="لنک:"></property>
+        <property name="PROJECT_ADD_BUTTON_TEXT"                value="شامل کریں / اپ ڈیٹ"></property>
+        <property name="PROJECT_UPDATE_BUTTON_TEXT"             value="اپ ڈیٹ کی ٹیم"></property>
+        <property name="PROJECT_CLEAR_BUTTON_TEXT"              value="صاف"></property>
+        <property name="PROJECT_COLOR_PICKER_PROMPT_TEXT"       value="رنگ منتخب کریں"></property>
+        <property name="PROJECT_CLEAR_BUTTON_TEXT"              value="صاف"></property>
+        <property name="PROJECT_TEAM_NAME_PROMPT_TEXT"          value="C4 مزاحیہ"></property>
+        <property name="PROJECT_TEAM_LINK_PROMPT_TEXT"          value="https://c4-comics.appspot.com"></property>
+        <property name="PROJECT_STUDENTS_HEADER_TEXT"           value="طلباء"></property>
+        <property name="PROJECT_STUDENTS_FIRST_NAME_COLUMN_TEXT"      value="پہلا نام"></property>
+        <property name="PROJECT_STUDENTS_LAST_NAME_COLUMN_TEXT"       value="آخری نام"></property>
+        <property name="PROJECT_STUDENTS_TEAM_COLUMN_TEXT"            value="ٹیم"></property>
+        <property name="PROJECT_STUDENTS_ROLE_COLUMN_TEXT"            value="کردار"></property>
+        <property name="PROJECT_STUDENTS_FIRST_NAME_TEXT"             value="پہلا نام:"></property>
+        <property name="PROJECT_STUDENTS_LAST_NAME_TEXT"              value="آخری نام:"></property>
+        <property name="PROJECT_STUDENTS_TEAM_TEXT"                   value="ٹیم:"></property>
+        <property name="PROJECT_STUDENTS_ROLE_TEXT"                   value="کردار:"></property>
+        <property name="PROJECT_STUDENTS_FIRST_NAME_PROMPT_TEXT"      value="Noonian"></property>
+        <property name="PROJECT_STUDENTS_LAST_NAME_PROMPT_TEXT"       value="Soong"></property>
+        <property name="PROJECT_STUDENTS_TEAM_PROMPT_TEXT"            value="C4 مزاحیہ"></property>
+        <property name="PROJECT_STUDENTS_ROLE_PROMPT_TEXT"            value="ڈیٹا ڈیزائنر"></property>
+
+        <!-- WORKSPACE ERROR MESSAGES -->
+        <property name="MISSING_TA_NAME_TITLE"          value="لاپتہ TA نام"></property>
+        <property name="MISSING_TA_NAME_MESSAGE"        value="تم ایک TA نام مہیا کرنا ضروری ہے"></property>
+        <property name="MISSING_TA_EMAIL_TITLE"         value="لاپتہ TA ای میل"></property>
+        <property name="MISSING_TA_EMAIL_MESSAGE"       value="تم ایک TA ای میل مہیا کرنا ضروری ہے"></property>
+        <property name="INVALID_EMAIL_TITLE"            value="غلط ای میل ایڈریس"></property>
+        <property name="EMAIL_NOT_VALID"                value="فراہم کردہ ای میل درست نہیں ہے"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_TITLE"     value="TA نام اور ای میل کے منفرد نہیں"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_MESSAGE"   value="آپ ایک منفرد TA نام اور ای میل مہیا کرنا ضروری ہے"></property>
+        <property name="OFFICE_HOUR_UPDATE_ERROR_TITLE"         value="قیامت اپ ڈیٹ کرنے میں خرابی"></property>
+        <property name="OFFICE_HOUR_UPDATE_ERROR_MESSAGE"       value="شروع کریں گھنٹہ اختتام گھنٹے سے کم ہونا چاہیے"></property>
+    </property_list>
+    <property_options_list>
+        <property_options name="OFFICE_HOURS_TABLE_HEADERS">
+            <option>وقت آغاز</option>
+            <option>آخر وقت</option>
+        </property_options>
+        <property_options name="DAYS_OF_WEEK">
+            <option>سوموار</option>
+            <option>منگل</option>
+            <option>بدھ</option>
+            <option>جمعرات</option>
+            <option>جمعہ</option>
+        </property_options>
+    </property_options_list>
+</properties>

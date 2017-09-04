@@ -1,0 +1,55 @@
+
+{
+    "startingMondayMonth":"1",
+    "startingMondayDay":"23",
+    "endingFridayMonth":"5",
+    "endingFridayDay":"19",
+    "holidays":[
+        {
+            "month":"02",
+            "day":"0",
+            "title":"SNOW DAY<br /><img src='./images/SnowDay.gif' />",
+            "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons"
+        },
+        {
+            "month":"03",
+            "day":"1",
+            "title":"Spring Break<br /><br /><br /><br />",
+            "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons"
+        }
+    ],
+    "lectures":[
+        {
+            "month":"02",
+            "day":"1",
+            "title":"Lecture 3",
+            "topic":"Event<br />Programming",
+            "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons"
+        },
+        {
+            "month":"04",
+            "day":"1",
+            "title":"Lecture 4",
+            "topic":"Hard<br />Lecture",
+            "link":"https://docs.google.com/spreadsheets/d/1hDY9OR4Nu5p2XLd3mkTB93y78Bnk3LInO0Ydkrz8gZg"
+        }
+    ],
+    "references":[
+    ],
+    "recitations":[
+    ],
+    "hws":[
+        {
+            "month":"03",
+            "day":"2",
+            "title":"HW3",
+            "topic":"UML"
+        },
+        {
+            "month":"04",
+            "day":"1",
+            "title":"HW4",
+            "topic":"Hard HW"
+        }
+    ]
+}

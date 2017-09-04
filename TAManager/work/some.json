@@ -1,0 +1,205 @@
+
+{
+    "TA DATA":"************************************************************************************************************************************************************************/",
+    "startHour":"8",
+    "endHour":"23",
+    "undergrad_tas":[
+        {
+            "name":"Bilal Shah",
+            "email":"bilal.shah@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Dachi Vardidze",
+            "email":"dachi.vardidze@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Hasib Rezoan",
+            "email":"hasib.rezoan@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"John Doe",
+            "email":"john.doe@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Ryan Tam",
+            "email":"ryan.tam.rezoan@stonybrook.edu",
+            "isUnderGrad":true
+        },
+        {
+            "name":"Saeid Kader",
+            "email":"asm.kader@stonybrook.edu",
+            "isUnderGrad":true
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"TUESDAY",
+            "time":"8_30am",
+            "name":"Hasib Rezoan"
+        },
+        {
+            "day":"MONDAY",
+            "time":"11_30am",
+            "name":"Saeid Kader"
+        },
+        {
+            "day":"FRIDAY",
+            "time":"3_00pm",
+            "name":"Jacob Evans"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"7_00pm",
+            "name":"Michael Mathew"
+        },
+        {
+            "day":"THURSDAY",
+            "time":"9_00pm",
+            "name":"Hsiang-Ju Lai"
+        },
+        {
+            "day":"FRIDAY",
+            "time":"10_30pm",
+            "name":"Aarin Chase"
+        }
+    ],
+    "RECITATION DATA":"************************************************************************************************************************************************************************/",
+    "recitations":[
+        {
+            "section":"R01",
+            "instructor":"Richard Mckenna",
+            "day_time":"Mondays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Wonyong Jeong",
+            "ta_2":"Jane Doe"
+        },
+        {
+            "section":"R02",
+            "instructor":"Richard Mckenna",
+            "day_time":"Wednesdays, 3:30pm-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Jerrel Sogoni",
+            "ta_2":"Abu Saeid"
+        },
+        {
+            "section":"R03",
+            "instructor":"Richard Mckenna",
+            "day_time":"Mondays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"James Hoffman",
+            "ta_2":"Bilal Shah"
+        },
+        {
+            "section":"R04",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Thursdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Milto Ndrenika",
+            "ta_2":"Hasib Rezoan"
+        },
+        {
+            "section":"R05",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Tuesdays, 5:30pm-6:23pm",
+            "location":"Old Computer Science 2113",
+            "ta_1":"Michael Mathew",
+            "ta_2":"Ryan Tam"
+        },
+        {
+            "section":"R06",
+            "instructor":"Ritwik Banerjee",
+            "day_time":"Tuesdays, 4:00pm-4:53pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Ali Afzal",
+            "ta_2":"Dachi Vardidze"
+        }
+    ],
+    "SCHEDULE DATA":"************************************************************************************************************************************************************************/",
+    "startingMondayDay":"23",
+    "startingMondayMonth":"1",
+    "endingFridayMonth":"5",
+    "endingFridayDay":"5",
+    "schedule_items":[
+        {
+            "type":"Holiday",
+            "date":"2/9/2017",
+            "title":"SNOW DAY",
+            "topic":""
+        },
+        {
+            "type":"Lecture",
+            "date":"2/14/2017",
+            "title":"Lecture 3",
+            "topic":"Event Programming"
+        },
+        {
+            "type":"Holiday",
+            "date":"3/12/2017",
+            "title":"Spring Break",
+            "topic":""
+        },
+        {
+            "type":"HW",
+            "date":"3/27/2017",
+            "title":"HW3",
+            "topic":"UML"
+        },
+        {
+            "type":"HW",
+            "date":"4/14/2017",
+            "title":"HW4",
+            "topic":"Hard HW"
+        },
+        {
+            "type":"Lecture",
+            "date":"4/25/2017",
+            "title":"Lecture 4",
+            "topic":"Code Profiling"
+        }
+    ],
+    "PROJECT DATA":"************************************************************************************************************************************************************************/",
+    "Teams":[
+        {
+            "name":"Atomic Comics",
+            "color":"55211#",
+            "text color":"ffffff#",
+            "link":"http://atomicomic.com"
+        },
+        {
+            "name":"C4 Comics",
+            "color":"235399#",
+            "text color":"ffffff#",
+            "link":"https://c4-comics.appspot.com"
+        },
+        {
+            "name":"Comx Central",
+            "color":"525322#",
+            "text color":"ffffff#",
+            "link":"https://comxcentral.appspot.com"
+        }
+    ],
+    "Students":[
+        {
+            "first name":"Beau",
+            "last name":"Brummell",
+            "team":"Atomic Comics",
+            "role":"Lead Designer"
+        },
+        {
+            "first name":"Jane",
+            "last name":"Doe",
+            "team":"C4 Comics",
+            "role":"Lead Programmer"
+        },
+        {
+            "first name":"Noonian",
+            "last name":"Soong",
+            "team":"Atomic Comics",
+            "role":"Data Designer"
+        }
+    ]
+}
